@@ -1,6 +1,7 @@
 from graphics import *
 
 win = GraphWin("DDA", 600, 600)
+
 x1 = int(input("Enter the x co-ordinate of starting point: "))
 y1 = int(input("Enter the y co-ordinate of starting point: "))
 x2 = int(input("Enter the x co-ordinate of end point: "))

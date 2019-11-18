@@ -1,10 +1,10 @@
 from graphics import *
 
 win = GraphWin("Bresenham Algorithm", 600, 600)
-x1 = float(input("Enter the x co-ordinate of starting point: "))
-y1 = float(input("Enter the y co-ordinate of starting point: "))
-x2 = float(input("Enter the x co-ordinate of end point: "))
-y2 = float(input("Enter the y co-ordinate of end point: "))
+x1 = int(input("Enter the x co-ordinate of starting point: "))
+y1 = int(input("Enter the y co-ordinate of starting point: "))
+x2 = int(input("Enter the x co-ordinate of end point: "))
+y2 = int(input("Enter the y co-ordinate of end point: "))
 
 dx = (x2 - x1)
 dy = (y2 - y1)

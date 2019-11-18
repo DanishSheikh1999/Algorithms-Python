@@ -33,7 +33,7 @@ edges = (
 
 
 def Cube(vertices):
-    glBegin(GL_LINES)
+    glBegin(GL_LINE)
     vertices = tuple(map(tuple, vertices))
     for edge in edges:
         for vertex in edge:

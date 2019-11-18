@@ -54,7 +54,7 @@ def computeCode(x, y):
 		code |= BOTTOM 
 	elif y > y_max: 
 		code |= TOP 
-
+	print(code)
 	return code 
 
 def cohenSutherlandClip(x1, y1, x2, y2): 
